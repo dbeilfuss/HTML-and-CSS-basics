@@ -1,0 +1,105 @@
+:root {
+  --text-color: #fff;
+}
+
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
+
+p,
+h1,
+h2 {
+  color: var(--text-color);
+}
+
+header {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+  align-items: stretch;
+  align-content: stretch;
+}
+
+.section {
+  background-color: black;
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.header-tabs {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: stretch;
+  align-content: stretch;
+  padding: 20px;
+  width: calc(100% - 75px);
+}
+
+.header-more {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: stretch;
+  width: 120px;
+  padding-right: 20px;
+}
+
+.tab {
+  font-weight: 500;
+  text-transform: uppercase;
+  margin: 10px;
+  color: var(--text-color);
+  font: 14px/28px D-DIN-Bold, Arial, Verdana, sans-serif;
+}
+
+#logo {
+  font-size: 25px;
+  font-weight: 600;
+  letter-spacing: 5px;
+  margin-right: 20px;
+}
+
+.hamburger {
+  display: flex;
+  flex-direction: column-reverse;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: stretch;
+  width: 50px;
+  height: 50px;
+}
+
+.hamburger-line {
+  height: 1px;
+  width: 20px;
+  background-color: var(--text-color);
+  margin: 2px;
+}
+
+#section1 {
+  background-image: url(Images/1starlink1.jpg);
+}
+
+#section2 {
+  background-image: url(Images/2starlink2.jpg);
+}
+
+#section3 {
+  background-image: url(Images/3crewdragon.jpg);
+}
+
+#section4 {
+  background-image: url(Images/4starship.jpg);
+}
